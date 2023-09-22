@@ -1,12 +1,12 @@
 # Cell membrane buckling governs early-stage ridge formation in butterfly wing scales: code
 
 This repository contains code, analysis, and processed data measurements for:
-- JF Totz, AD McDougal, L Wagner, S Kang, PTC So, J Dunkel, BD Wilts, and M Kolle, Cell membrane buckling governs early-stage ridge formation in butterfly wing scales, (forthcoming).
+- JF Totz, AD McDougal, L Wagner, S Kang, PTC So, J Dunkel, BD Wilts, and M Kolle. Cell membrane buckling governs early-stage ridge formation in butterfly wing scales. (Forthcoming).
 
 Additional details may be found in the Materials and Methods, as well as the SI, of the above publication.
 
-The companion data repository may be found on Zenodo: 
-JF Totz, AD McDougal, L Wagner, S Kang, PTC So, J Dunkel, BD Wilts, and M Kolle, Cell membrane buckling governs early-stage ridge formation in butterfly wing scales, (forthcoming).
+The companion repository of raw data may be found on Zenodo: 
+JF Totz, AD McDougal, L Wagner, S Kang, PTC So, J Dunkel, BD Wilts, and M Kolle. (Forthcoming). "Cell membrane buckling governs early-stage ridge formation in butterfly wing scales:data" (v1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.8369073
 
 ## Processing and analysis of empirical data 
 ### Requirements
@@ -14,6 +14,8 @@ Code was prepared for use in MATLAB R2022b. Various scripts or functions require
 
 For 2D unwrapping, Python (prepared with v3.10) and the Python package 'scikit-image' are required.
 For the reader's convenience, we share `samplePythonUnwrap.m` to provide installation tips and to demonstrate use in Matlab.
+
+For scripts that require the raw data, the data must be downloaded from the data repository mentioned above and placed in the /RawData/ folder.
 
 ### Visualization and analysis of raw phase data
 - `analyzePhaseProfile.m` integrates the analysis, visualization, and exploration of phase data. 
