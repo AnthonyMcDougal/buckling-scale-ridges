@@ -1,5 +1,7 @@
 # Cell membrane buckling governs early-stage ridge formation in butterfly wing scales: code
 
+ [![DOI](https://zenodo.org/badge/694977597.svg)](https://zenodo.org/badge/latestdoi/694977597)
+
 This repository contains code, analysis, and processed data measurements for:
 - JF Totz, AD McDougal, L Wagner, S Kang, PTC So, J Dunkel, BD Wilts, and M Kolle. Cell membrane buckling governs early-stage ridge formation in butterfly wing scales. (Forthcoming).
 
