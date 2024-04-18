@@ -12,7 +12,12 @@ addpath(genpath(currfolder));
 %% Load and show single file measurement
 
 % main file
-filepath = 'Measured\A-40-01_11_04_34_set_115-d4.86\scale6-10L-3D_meas.mat';
+filepath = 'Measured\A-40-01_11_04_34_set_115-d4.86\scale3-10L-3D_meas.mat';
+% other files for fig I
+% filename = 'Measured\A-40-01_11_04_34_set_115-d4.86\scale6-10L-3D_meas.mat';
+% filename = 'Measured\A-40-01_11_04_34_set_115-d4.86\scale5-10L-3D-back_meas.mat';
+
+
 
 ptrn = 'Measured';
 strInd = strfind(filepath, ptrn);

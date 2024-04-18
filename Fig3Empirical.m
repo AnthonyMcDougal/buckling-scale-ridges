@@ -86,7 +86,9 @@ newC = newC/255;
 figure
 colororder(newC)
 
-vplotHeight = violinplot(1000*ptableAll.scaledH, ptableAll.pctAge,...
+newScale = 1.6;
+
+vplotHeight = violinplot(newScale*1000*ptableAll.scaledH, ptableAll.pctAge,...
     'Width', 0.4,...
     'MarkerSize', 12);
 
@@ -102,7 +104,7 @@ end
 xlabel('Pupal development time (%)')
 ylabel('Amplitude {\it w0}')
 vplotHeight_Fig = gcf;
-vplotHeight_Fig.Position(3:4) = [600 240];
+vplotHeight_Fig.Position(3:4) = [600 277];
 
 figure
 colororder(newC)
@@ -121,4 +123,4 @@ end
 xlabel('Pupal development time (%)')
 ylabel(['Width {\it L} (', char(0181), 'm)'])
 vplotWidth_Fig = gcf;
-vplotWidth_Fig.Position(3:4) = [600 240];
+vplotWidth_Fig.Position(3:4) = [600 277];
